@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  background-color: yellow;
+  padding: 1rem;
+  border: 2px solid black;
+}
+
+.header p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.users {
+  margin: 2vh 0;
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 100vw;
+  text-align: center;
+  background-color: lightgreen;
+  border: 2px solid black;
+}
